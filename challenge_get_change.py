@@ -8,6 +8,6 @@ Created on Sat Sep  8 13:44:44 2018
 totalbill = input('How much is your total bill?')
 payment = input('How much is your payment?')
 
-change =  int(payment) - int(totalbill)
+change =  float(payment) - float(totalbill)
 
-print('Hi! Your change is {}'.format(abs(change)))  
+print('Hi! Your change is {}'.format(change, '.2f'))  
